@@ -25,7 +25,7 @@ export class Certs extends Component {
           </div>
 
           <div className='flex-1'>
-            <div className='ml-3 mt-8'>
+            <div className='ml-3 mt-6'>
               <div>CLOUD PRACTICIONER</div>
               <div>August 2020</div>
             </div>
