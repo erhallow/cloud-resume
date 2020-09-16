@@ -8,9 +8,9 @@ export class Certs extends Component {
       <div>
         <h1 className='text-3xl text-teal-600 p-5'>CERTIFICATIONS</h1>
 
-        <div className='flex pl-5 pr-5'>
+        <div className='flex pl-4 pr-5'>
           <div className='h-32 w-32 container'>
-            <img className='h-32 w-32' src={ccp} alt='saa'></img>
+            <img className='cert-icon' src={ccp} alt='saa'></img>
             <div className='overlay'>
               <div className='text'>
                 <a
@@ -32,9 +32,9 @@ export class Certs extends Component {
           </div>
         </div>
 
-        <div className='flex pl-5 pt-2'>
+        <div className='flex pl-4 pt-4'>
           <div className='h-32 w-32 container'>
-            <img className='h-32 w-32' src={saa} alt='saa'></img>
+            <img className='cert-icon' src={saa} alt='saa'></img>
             <div className='overlay'>
               <div className='text'>
                 <a

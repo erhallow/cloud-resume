@@ -4,7 +4,7 @@ export class Projects extends Component {
   render() {
     return (
       <div className='p-5'>
-        <h1 className='text-3xl text-teal-600'>PROJECTS</h1>
+        <h1 className='text-3xl text-teal-600 mb-3'>PROJECTS</h1>
         <div>
           <h3 className='font-bold'>CLOUD RESUME</h3>
           <span>

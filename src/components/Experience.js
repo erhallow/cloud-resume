@@ -4,7 +4,7 @@ export class Experience extends Component {
   render() {
     return (
       <div className='p-5'>
-        <h1 className='text-3xl text-teal-600 mb-2'>PROFESSIONAL EXPERIENCE</h1>
+        <h1 className='text-3xl text-teal-600 mb-3'>PROFESSIONAL EXPERIENCE</h1>
         <div className='mb-5'>
           <h2 className='font-bold'>FREELANCE WEB DEVELOPER</h2>
           <div>
