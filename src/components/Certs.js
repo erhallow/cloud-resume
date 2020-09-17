@@ -26,7 +26,7 @@ export class Certs extends Component {
 
           <div className='flex-1'>
             <div className='ml-3 mt-6'>
-              <div>CLOUD PRACTICIONER</div>
+              <div className='font-bold'>CLOUD PRACTICIONER</div>
               <div>August 2020</div>
             </div>
           </div>
@@ -51,7 +51,7 @@ export class Certs extends Component {
 
           <div className='flex-1'>
             <div className='ml-3 mt-6'>
-              <div>SOLUTIONS ARCHITECT ASSOCIATE</div>
+              <div className='font-bold'>SOLUTIONS ARCHITECT ASSOCIATE</div>
               <div>August 2020</div>
             </div>
           </div>

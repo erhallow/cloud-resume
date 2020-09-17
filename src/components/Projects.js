@@ -9,27 +9,20 @@ export class Projects extends Component {
           <h3 className='font-bold'>CLOUD RESUME</h3>
           <span>
             <a
-              href='https://github.com/erhallow/top10crypto'
+              href='https://github.com/erhallow/cloud-resume'
               target='_blank'
               rel='noopener noreferrer'
               className='hover-underline-center'
             >
               <i class='fab fa-github'></i> GITHUB LINK{' '}
             </a>{' '}
-            |{' '}
-            <a
-              href='https://github.com/erhallow/top10crypto'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='hover-underline-center'
-            >
-              LIVE WEBSITE
-            </a>
           </span>
         </div>
-        <div>
-          This current project you are looking at. JS, React, TailwindCSS,
-          custom CSS. AWS Services. Hosted on S3. Cloudfront.
+        <div className='mt-3'>
+          This project is the website you are currently on. The frontend is
+          built with React, TailwindCSS, and custom CSS. The backend utilizes
+          AWS services such as S3, CloudFront, Route 53, DynamoDB, API Gateway,
+          Python Lambda Functions, and SAM templates.
         </div>
       </div>
     );

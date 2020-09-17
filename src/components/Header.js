@@ -5,7 +5,7 @@ export class Header extends Component {
   render() {
     return (
       <div>
-        <div className='flex p-5'>
+        <div className='flex pl-5 pt-5'>
           <div className='flex-auto text-left font-mono'>
             <h1 className='text-5xl text-white'>ERIC HALLOW</h1>
             <h3 className='text-teal-600'>
