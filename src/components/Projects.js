@@ -14,7 +14,7 @@ export class Projects extends Component {
               rel='noopener noreferrer'
               className='hover-underline-center'
             >
-              <i class='fab fa-github'></i> GITHUB LINK{' '}
+              <i className='fab fa-github'></i> GITHUB LINK{' '}
             </a>{' '}
           </span>
         </div>

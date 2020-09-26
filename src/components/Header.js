@@ -23,24 +23,24 @@ export class Header extends Component {
                   target='blank'
                   rel='noopener noreferrer'
                 >
-                  <i class='fab fa-twitter-square text-xl pl-0 pr-1 hover:text-teal-600'></i>
+                  <i className='fab fa-twitter-square text-xl pl-0 pr-1 hover:text-teal-600'></i>
                 </a>
                 <a
                   href='https://www.linkedin.com/in/eric-hallow/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <i class='fab fa-linkedin text-xl p-1 hover:text-teal-600'></i>
+                  <i className='fab fa-linkedin text-xl p-1 hover:text-teal-600'></i>
                 </a>
                 <a
                   href='https://erhallow.hashnode.dev/'
                   target='blank'
                   rel='noopener noreferrer'
                 >
-                  <i class='fab fa-blogger text-xl p-1 hover:text-teal-600'></i>
+                  <i className='fab fa-blogger text-xl p-1 hover:text-teal-600'></i>
                 </a>
               </div>
-              <div className='pt-1'>Visitor Count: 1000</div>
+              <div className='pt-1'>Visitor Count: {this.props.visitCount}</div>
             </div>
           </div>
 
@@ -57,21 +57,21 @@ export class Header extends Component {
                 target='blank'
                 rel='noopener noreferrer'
               >
-                <i class='fab fa-twitter-square text-4xl p-1 hover:text-teal-600'></i>
+                <i className='fab fa-twitter-square text-4xl p-1 hover:text-teal-600'></i>
               </a>
               <a
                 href='https://www.linkedin.com/in/eric-hallow/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <i class='fab fa-linkedin text-4xl p-1 hover:text-teal-600'></i>
+                <i className='fab fa-linkedin text-4xl p-1 hover:text-teal-600'></i>
               </a>
               <a
                 href='https://erhallow.hashnode.dev/'
                 target='blank'
                 rel='noopener noreferrer'
               >
-                <i class='fab fa-blogger text-4xl p-1 hover:text-teal-600'></i>
+                <i className='fab fa-blogger text-4xl p-1 hover:text-teal-600'></i>
               </a>
             </div>
           </div>
