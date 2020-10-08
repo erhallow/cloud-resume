@@ -9,7 +9,7 @@ export class Header extends Component {
           <div className='flex-auto text-left font-mono'>
             <h1 className='text-5xl text-white'>ERIC HALLOW</h1>
             <h3 className='text-teal-600'>
-              AWS Certified Professional and Software Engineer
+              AWS Certified Professional and Web Developer
             </h3>
             <div className=' mt-2'>
               <div className='select-all'>

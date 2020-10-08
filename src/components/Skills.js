@@ -24,7 +24,10 @@ export class Skills extends Component {
           JavaScript, React, Python, HTML, CSS, Bootstrap, TailwindCSS, Git
         </div>
         <h2 className='font-bold mt-5 mb-1'>AWS CLOUD SERVICES</h2>
-        <div>S3, Cloudfront, Route 53, DynamoDB, API Gateway, Lambda</div>
+        <div>
+          S3, Cloudfront, Route 53, DynamoDB, API Gateway, Lambda,<br></br>Step
+          Functions, SNS, SES
+        </div>
       </div>
     );
   }
