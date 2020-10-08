@@ -16,13 +16,25 @@ export class Projects extends Component {
             >
               <i className='fab fa-github'></i> GITHUB LINK{' '}
             </a>{' '}
+          </span>{' '}
+          |{' '}
+          <span>
+            <a
+              href='https://erhallow.hashnode.dev/cloud-resume-challenge-ckg1f6bhb01oiw6s1dd5399qv'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='hover-underline-center'
+            >
+              <i class='fab fa-blogger-b'></i> BLOG LINK{' '}
+            </a>{' '}
           </span>
         </div>
         <div className='mt-3 mb-3'>
           This project is the website you are currently on. The frontend is
           built with React, TailwindCSS, and custom CSS. The backend utilizes
           AWS services such as S3, CloudFront, Route 53, DynamoDB, API Gateway,
-          Python Lambda Functions, and SAM templates.
+          Python Lambda Functions, and SAM templates. For a more detailed
+          explanation of how I built this, click the blog link above.
         </div>
         <div>
           <h3 className='font-bold'>SERVERLESS MESSAGING APPLICATION</h3>
