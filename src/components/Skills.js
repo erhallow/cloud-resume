@@ -16,17 +16,19 @@ export class Skills extends Component {
             <i className='fab fa-bootstrap text-5xl m-2 hover:text-teal-600'></i>
             <i className='fab fa-python text-5xl m-2 hover:text-teal-600'></i>
             <i className='fab fa-git text-5xl m-2 hover:text-teal-600'></i>
-            <i className='fab fa-github-square text-5xl m-2 hover:text-teal-600'></i>
+            <i className='fab fa-aws text-5xl m-2 hover:text-teal-600'></i>
           </div>
         </div>
-        <h2 className='font-bold mt-5 mb-1'>LANGUAGES AND FRAMEWORKS</h2>
+        <h2 className='font-bold text-xl mt-5 mb-1'>
+          LANGUAGES AND FRAMEWORKS
+        </h2>
         <div>
           JavaScript, React, Python, HTML, CSS, Bootstrap, TailwindCSS, Git
         </div>
-        <h2 className='font-bold mt-5 mb-1'>AWS CLOUD SERVICES</h2>
+        <h2 className='font-bold text-xl mt-5 mb-1'>AWS CLOUD SERVICES</h2>
         <div>
           S3, Cloudfront, Route 53, DynamoDB, API Gateway, Lambda,<br></br>Step
-          Functions, SNS, SES
+          Functions, SNS, SES, Cognito, CodePipeline, EC2
         </div>
       </div>
     );

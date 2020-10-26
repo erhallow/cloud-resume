@@ -5,7 +5,9 @@ export class Interests extends Component {
     return (
       <div className='p-5 pb-10'>
         <div className='text-3xl text-teal-600 pb-3'>INTERESTS</div>
-        <div>Ultimate Frisbee, Indie Hackers, Survivor </div>
+        <div className='text-xl'>
+          Ultimate Frisbee, Indie Hackers, Survivor{' '}
+        </div>
       </div>
     );
   }
