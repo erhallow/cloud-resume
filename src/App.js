@@ -9,6 +9,8 @@ import Interests from './components/Interests';
 import './App.css';
 import axios from 'axios';
 
+import resume from "./data/resume.json";
+
 class App extends Component {
   state = {
     visitCount: [],
@@ -28,13 +30,13 @@ class App extends Component {
         <div className='bg-hero'>
           <div className='grid grid-cols-9 md:grid lg:grid-cols-12 text-white'>
             <div className='col-start-1 md:col-start-2 lg:col-start-3 xl:col-start-4 col-end-10 md:col-end-9 lg:col-end-11 xl:col-end-10'>
-              <Header visitCount={this.state.visitCount} />
-              <Certs />
-              <Skills />
-              <Profile />
-              <Projects />
-              <Education />
-              <Interests />
+              <Header visitCount={this.state.visitCount} data={resume.header} />
+              <Certs data={resume.certifications} />
+              <Skills data={resume.skills} />
+              <Profile data={resume.profile} />
+              <Projects data={resume.projects} />
+              <Education data={resume.education} />
+              <Interests data={resume.interests} />
             </div>
           </div>
         </div>

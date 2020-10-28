@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export class Interests extends Component {
-  render() {
+const Interests = ({ data }) => {
     return (
-      <div className='p-5 pb-10'>
-        <div className='text-3xl text-teal-600 pb-3'>INTERESTS</div>
+      <div className='p-5 pt-2 pb-10'>
+        <div className='text-3xl text-teal-600 pb-3'>{data.title}</div>
         <div className='text-xl'>
-          Ultimate Frisbee, Indie Hackers, Survivor{' '}
+          {data.list}
         </div>
       </div>
     );
-  }
 }
 
 export default Interests;

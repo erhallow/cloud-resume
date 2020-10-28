@@ -1,0 +1,142 @@
+{
+    "header": {
+        "name": "ERIC HALLOW",
+        "title": "AWS Certified Professional and Web Developer",
+        "email": "ERHALLOW@GMAIL.COM",
+        "location": "CHICAGO, IL",
+        "twitter": "https://twitter.com/EricHallow",
+        "linkedin": "https://www.linkedin.com/in/eric-hallow/",
+        "blog": "https://erhallow.hashnode.dev/"
+    },
+    "certifications": {
+        "title": "CERTIFICATIONS",
+        "CCP": {
+            "title": "CLOUD PRACTICIONER",
+            "date": "August 2020",
+            "link": "https://www.youracclaim.com/badges/33bab85d-19ce-4797-88c5-6d4084602a2f",
+            "button": "Verify"
+        },
+        "SAA": {
+            "title": "SOLUTIONS ARCHITECT ASSOCIATE",
+            "date": "August 2020",
+            "link": "https://www.youracclaim.com/badges/3a3d6350-223f-4721-82e6-e40a72c2f776",
+            "button": "Verify" 
+        }
+    },
+    "skills": {
+        "title": "SKILLS",
+        "language": {
+            "title": "LANGUAGES AND FRAMEWORKS",
+            "items": "JavaScript, React, Python, HTML, CSS, Bootstrap, TailwindCSS, Git"
+        },
+        "aws": {
+            "title": "AWS CLOUD SERVICES",
+            "items1": "S3, CloudFront, Route 53, DynamoD, API Gateway, Lambda",
+            "items2": "Step Functions, SNS, SES, Cognito, CodePipeline, EC2"
+        },
+        "icons": [
+            "fab fa-js-square text-5xl m-2 hover:text-teal-600",
+            "fab fa-react text-5xl m-2 hover:text-teal-600",
+            "fab fa-html5 text-5xl m-2 hover:text-teal-600",
+            "fab fa-css3-alt text-5xl m-2 hover:text-teal-600"  
+        ],
+        "iconscont": [
+            "fab fa-bootstrap text-5xl m-2 hover:text-teal-600",
+            "fab fa-python text-5xl m-2 hover:text-teal-600",
+            "fab fa-git text-5xl m-2 hover:text-teal-600",
+            "fab fa-aws text-5xl m-2 hover:text-teal-600"
+        ]
+    },
+    "profile": {
+        "intro": {
+            "title": "PROFILE & PROFESSIONAL EXPERIENCE",
+            "description": "After 8 years of playing online poker professionally, I am transitioning to the web development space. Although I greatly enjoy playing poker, I am seeking a different lifestyle and work/life balance. I've always been interested in technology and decided it was the right time in my career to make the transition. I am a self-taught developer, and I have relied heavily on tutorials and support from the community throughout my learning process. The diversity of the skills I have acquired so far are outlined below in the Projects section. I am looking forward to my first professional opportunity in the Cloud space."
+        },
+        "experience": {
+            "title": "PROFESSIONAL POKER PLAYER",
+            "date": "June 2012 - Present",
+            "skillset": [
+                "Run PostgreSQL database queries of over 2 million hands to identify and imporve inconsistencies in strategy utilizing a game theory optimal framework", "Continually learn new strategies using Solver Software and applying it to real-life situations", "Manage risk and grow bankroll through diversification of game type and stakes", "Developed a strong growth mindset by working with a mental game coach in order to consistently perform at a high level"
+            ]
+        }   
+    },
+    "projects": {
+        "title": "PROJECTS",
+        "list": [
+        {
+            "title": "CLOUD RESUME",
+            "githublink": "https://github.com/erhallow/cloud-resume",
+            "githublinkname": "GITHUB FRONTEND",
+            "githubicon": "fab fa-github",
+            "secondgithubicon": "fab fa-github",
+            "secondarygithublink": "https://github.com/erhallow/cloud-resume-backend",
+            "secondarylinkname": "GITHUB BACKEND",
+            "bloglink": "https://erhallow.hashnode.dev/cloud-resume-challenge-ckg1f6bhb01oiw6s1dd5399qv",
+            "blogname": "BLOG LINK",
+            "blogicon": "fab fa-blogger-b",
+            "description": "The project is the website you are currently on. The frontend is built with React, TailwindCSS, and custom CSS. The backend utilizes AWS services such as S3, CloudFront, Route 53, DynamoDB, API Gateway, Python Lambda Functions, and SAM Templates. For a more detailed explanation of how I built this, click the link above."
+        },
+        {
+            "title": "TOP 10 CRYPTO DATA",
+            "githublink": "https://github.com/erhallow/top10crypto",
+            "githublinkname": "GITHUB LINK",
+            "githubicon": "fab fa-github",
+            "livelink": "https://www.top10cryptovol.com/",
+            "livelinkname": "LIVE SITE",
+            "liveicon": "fas fa-globe",
+            "description": "This project was made in React and pulls live data from the CryptoCompare API. It allows the user to sort cryptocurrencies by daily dollar change or daily percentage change"
+        },
+        {
+            "title": "SERVERLESS MESSAGING APPLICATION",
+            "bloglink": "https://erhallow.hashnode.dev/build-an-aws-simple-serverless-messaging-application-ckfzuavt800x3lss13e0uf4rg",
+            "blogname": "BLOG LINK",
+            "blogicon": "fab fa-blogger-b",
+            "description": "This project was built using a variety of AWS services: Step Functions, Lambda Functions, API Gateway, Simple Notification Service (SNS), Simple Email Service (SES), and S3. To read more about how I built this, click the blog link above."
+        },
+        {
+            "title": "HYBRID DNS",
+            "bloglink": "https://erhallow.hashnode.dev/create-a-hybrid-dns-ckgqu9td100hi76s14dnrbzce",
+            "blogname": "BLOG LINK",
+            "blogicon": "fab fa-blogger-b",
+            "description": "In this project, I used AWS Route 53 to create a hybrid Domain Name System (DNS) between the AWS network and a customer's network. To read more about how I built this, click the blog link above."
+        },
+        {
+            "title": "WED IDENTITY FEDERATION",
+            "bloglink": "https://erhallow.hashnode.dev/aws-web-identity-federation-ckgqugjt100iy69s174ke31tw",
+            "blogname": "BLOG LINK",
+            "blogicon": "fab fa-blogger-b",
+            "description": "In this project, I created Google authentication to access my privately stored files on an AWS S3 bucket. It was displayed on a static website hosted on S3. To read more about how I built this, click the blog link above."
+        },
+        {
+            "title": "SITE-TO-SITE VPN",
+            "bloglink": "https://erhallow.hashnode.dev/build-a-site-to-site-vpn-from-aws-to-the-customer-ckgiaxu0e03c2rhs17mhu8s1j",
+            "blogname": "BLOG LINK",
+            "blogicon": "fab fa-blogger-b",
+            "description": "I built a secure VPN connection between the AWS network and a customer's network using the Border Gateway Protocol for routing. To read more about how I built this, click the blog link above."
+        }
+        ]   
+    },
+    "education": {
+        "title": "EDUCATION",
+        "school": [
+             {
+            "degree": "MBA",
+            "concentration": "CONCENTRATION INFORMATION SYSTEMS",
+            "school": "Purdue University Northwest | December 2013"
+        },
+        {
+            "degree": "B.S. BUSINESS MANAGEMENT",
+            "concentration": "CONCENTRATION FINANCE",
+            "school": "Purdue University | MAY 2012" 
+        }
+        ]
+    },
+    "interests": {
+        "title": "INTERESTS",
+        "list": "Ultimate Frisbee, Indie Hackers, Survivor"
+    }  
+       
+}
+
+
+
