@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Certs from './components/Certs';
 import Profile from './components/Profile';
@@ -8,29 +8,28 @@ import Skills from './components/Skills';
 import Interests from './components/Interests';
 import './App.css';
 import axios from 'axios';
-
 import resume from "./data/resume.json";
 
-class App extends Component {
-  state = {
-    visitCount: [],
-  };
-
-  async componentDidMount() {
-    const res = await axios.get(
+const App = () => {
+  const [visitCount, setVisitCount] = useState([]);
+  
+  useEffect( () => {
+    const fetchData = async () => {
+       const res = await axios.get(
       'https://dst2vfdbm6.execute-api.us-east-2.amazonaws.com/Prod/count'
-    );
+      ); 
+      
+      setVisitCount(res.data.Attributes.visitNum);
+    }; 
+    fetchData();
+  }, [] );
 
-    this.setState({ visitCount: res.data.Attributes.visitNum });
-  }
-
-  render() {
     return (
       <div>
         <div className='bg-hero'>
           <div className='grid grid-cols-9 md:grid lg:grid-cols-12 text-white'>
             <div className='col-start-1 md:col-start-2 lg:col-start-3 xl:col-start-4 col-end-10 md:col-end-9 lg:col-end-11 xl:col-end-10'>
-              <Header visitCount={this.state.visitCount} data={resume.header} />
+              <Header visitCount={visitCount} data={resume.header} />
               <Certs data={resume.certifications} />
               <Skills data={resume.skills} />
               <Profile data={resume.profile} />
@@ -42,7 +41,7 @@ class App extends Component {
         </div>
       </div>
     );
-  }
+
 }
 
 export default App;
