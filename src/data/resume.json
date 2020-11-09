@@ -10,18 +10,26 @@
     },
     "certifications": {
         "title": "CERTIFICATIONS",
-        "CCP": {
-            "title": "CLOUD PRACTICIONER",
-            "date": "August 2020",
-            "link": "https://www.youracclaim.com/badges/33bab85d-19ce-4797-88c5-6d4084602a2f",
-            "button": "Verify"
-        },
-        "SAA": {
-            "title": "SOLUTIONS ARCHITECT ASSOCIATE",
-            "date": "August 2020",
-            "link": "https://www.youracclaim.com/badges/3a3d6350-223f-4721-82e6-e40a72c2f776",
-            "button": "Verify" 
-        }
+        "CCP":
+            {
+                "id": 1,
+                "title": "CLOUD PRACTICIONER",
+                "date": "August 2020",
+                "link": "https://www.youracclaim.com/badges/33bab85d-19ce-4797-88c5-6d4084602a2f",
+                "button": "Verify",
+                "image": "./public/aws-ccp.png",
+                "imagealt": "ccp"
+            },
+        "SAA":
+            {
+                "id": 2,
+                "title": "SOLUTIONS ARCHITECT ASSOCIATE",
+                "date": "August 2020",
+                "link": "https://www.youracclaim.com/badges/3a3d6350-223f-4721-82e6-e40a72c2f776",
+                "button": "Verify",
+                "image": "./public/aws-saa.png",
+                "imagealt": "saa"
+            }    
     },
     "skills": {
         "title": "SKILLS",
@@ -56,8 +64,12 @@
             "title": "PROFESSIONAL POKER PLAYER",
             "date": "June 2012 - Present",
             "skillset": [
-                "Run PostgreSQL database queries of over 2 million hands to identify and imporve inconsistencies in strategy utilizing a game theory optimal framework", "Continually learn new strategies using Solver Software and applying it to real-life situations", "Manage risk and grow bankroll through diversification of game type and stakes", "Developed a strong growth mindset by working with a mental game coach in order to consistently perform at a high level"
+                "Run PostgreSQL database queries of over 2 million hands to identify and improve inconsistencies in strategy utilizing a game theory optimal framework", "Continually learn new strategies using Solver Software and applying it to real-life situations", "Manage risk and grow bankroll through diversification of game type and stakes", "Developed a strong growth mindset by working with a mental game coach in order to consistently perform at a high level"
             ]
+        },
+        "podcast": {
+            "title": "BOWTIE CERTIFIED PODCAST",
+            "description": "I was invited on the 'Bowtie Certified' podcast to discuss my journey from Professional Poker Player into the Cloud space. We had a great conversation about the similarities between poker and technology in terms of decision making, mindset, and skill development. Check it out below! "
         }   
     },
     "projects": {
@@ -84,7 +96,7 @@
             "livelink": "https://www.top10cryptovol.com/",
             "livelinkname": "LIVE SITE",
             "liveicon": "fas fa-globe",
-            "description": "This project was made in React and pulls live data from the CryptoCompare API. It allows the user to sort cryptocurrencies by daily dollar change or daily percentage change"
+            "description": "This project was made in React and pulls live data from the CryptoCompare API. It allows the user to sort cryptocurrencies by daily dollar change or daily percentage change."
         },
         {
             "title": "SERVERLESS MESSAGING APPLICATION",

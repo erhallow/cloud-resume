@@ -7,7 +7,7 @@ const Education = ({ data }) => {
         <div>
         { data.school.map((item) => {
               return (
-                <div>
+                <div key={item.degree}>
                   <div className='pb-4 pt-3'>
                     <div className='font-bold text-xl'>{item.degree}</div>
                     <div>{item.concentration}</div>

@@ -6,10 +6,10 @@ const Skills = ({ data }) => {
         <h1 className='text-3xl text-teal-600 mb-2'>{data.title}</h1>
         <div>        
           <div>
-               { data.icons.map((item) => (<i className={item}></i>) )}
+               { data.icons.map((item) => (<i className={item} key={item}></i>) )}
           </div>
           <div>
-          { data.iconscont.map((item) => (<i className={item}></i>) )}
+          { data.iconscont.map((item) => (<i className={item} key={item}></i>) )}
           </div>
         </div>
         <h2 className='font-bold text-xl mt-5 mb-1'>

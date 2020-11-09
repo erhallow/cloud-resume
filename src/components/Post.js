@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Post = ({ item }) => {
+const Post = ({ item, i }) => {
     return (
-             <div>
+             <div key={`${item.title}-${i}`}>
                 <h3 className='font-bold text-xl'>{item.title}</h3>
                 {item.githublinkname && 
                 <span className="pr-4">
