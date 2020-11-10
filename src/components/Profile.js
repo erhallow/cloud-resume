@@ -21,7 +21,7 @@ const Profile = ({ data }) => {
             <h2 className='font-bold text-xl'>{ data.podcast.title }</h2>
             <span>{ data.podcast.description }</span>
           </div>
-          <div>
+          <div className='youtube'>
           <iframe width="560" height="315" title="bowtie certified" src="https://www.youtube.com/embed/d7cFtkl5iCU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
