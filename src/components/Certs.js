@@ -1,6 +1,7 @@
 import React from 'react';
 import ccp from './aws-ccp.png';
 import saa from './aws-saa.png';
+import trf from './terraform.png';
 
 const Certs = ({ data }) => {
   return (
@@ -54,6 +55,33 @@ const Certs = ({ data }) => {
                 {data.SAA.title}
               </div>
               <div>{data.SAA.date}</div>
+            </div>
+          </div>
+        </div>
+
+        <div className='flex pl-4 pt-4'>
+          <div className='h-32 w-32 container'>
+            <img className='cert-icon' src={trf} alt='terraform'></img>
+            <div className='overlay'>
+              <div className='text'>
+                <a
+                  href={data.TRF.link}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='font-mono'
+                >
+                  {data.TRF.button}
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className='flex-1'>
+            <div className='ml-3 mt-6'>
+              <div className='font-bold text-xl'>
+                {data.TRF.title}
+              </div>
+              <div>{data.TRF.date}</div>
             </div>
           </div>
         </div>

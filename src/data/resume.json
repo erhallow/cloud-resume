@@ -29,13 +29,23 @@
                 "button": "Verify",
                 "image": "./public/aws-saa.png",
                 "imagealt": "saa"
-            }    
+            },
+        "TRF":
+            {
+                "id": 3,
+                "title": "TERRAFORM ASSOCIATE",
+                "date": "January 2021",
+                "link": "https://www.youracclaim.com/badges/ed294ff7-3c8c-481b-9a4e-e3b6ec1dea1d",
+                "button": "Verify",
+                "image": "./public/terraform.png",
+                "imagealt": "terraform"
+            }
     },
     "skills": {
         "title": "SKILLS",
         "language": {
             "title": "LANGUAGES AND FRAMEWORKS",
-            "items": "JavaScript, React, Python, HTML, CSS, Bootstrap, TailwindCSS, Git"
+            "items": "Python, Terraform, JavaScript, React, HTML, CSS, Bootstrap, TailwindCSS, Git"
         },
         "aws": {
             "title": "AWS CLOUD SERVICES",
@@ -61,11 +71,18 @@
             "description": "After 8 years of playing online poker professionally, I am transitioning to the web development space. Although I greatly enjoy playing poker, I am seeking a different lifestyle and work/life balance. I've always been interested in technology and decided it was the right time in my career to make the transition. I am a self-taught developer, and I have relied heavily on tutorials and support from the community throughout my learning process. The diversity of the skills I have acquired so far are outlined below in the Projects section. I am looking forward to my first professional opportunity in the Cloud space."
         },
         "experience": {
-            "title": "PROFESSIONAL POKER PLAYER",
-            "date": "June 2012 - Present",
-            "skillset": [
+            "poker": {
+               "title": "PROFESSIONAL POKER PLAYER",
+                "date": "June 2012 - Present",
+                "skillset": [
                 "Run PostgreSQL database queries of over 2 million hands to identify and improve inconsistencies in strategy utilizing a game theory optimal framework", "Continually learn new strategies using Solver Software and applying it to real-life situations", "Manage risk and grow bankroll through diversification of game type and stakes", "Developed a strong growth mindset by working with a mental game coach in order to consistently perform at a high level"
-            ]
+                ] 
+            },
+            "freelance": {
+                "title": "FREELANCE PYTHON DEVELOPER",
+                "date": "December 2020 - Present",
+                "skillset": ["Developed Python scripts to automate the data collection of over 5,000 school URLs", "Collaborated with the team lead to establish goals and complete deliverables"]
+            }
         },
         "podcast": {
             "title": "BOWTIE CERTIFIED PODCAST",

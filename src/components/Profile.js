@@ -7,15 +7,30 @@ const Profile = ({ data }) => {
           { data.intro.title }
         </h1>
         <div className='mb-4'>{ data.intro.description }</div>
+
         <div className='mb-4'>
-          <h2 className='font-bold text-xl'>{data.experience.title}</h2>
-          <h3>{data.experience.date}</h3>
+          <h2 className='font-bold text-xl'>{data.experience.freelance.title}</h2>
+          <h3>{data.experience.freelance.date}</h3>
           <ul className='list-disc pl-5'>    
             <div>
-               { data.experience.skillset.map((item) => (<li key={item}>{item}</li>) )}
+               { data.experience.freelance.skillset.map((item) => (<li key={item}>{item}</li>) )}
             </div>
           </ul>
         </div>
+
+
+        <div className='mb-4'>
+          <h2 className='font-bold text-xl'>{data.experience.poker.title}</h2>
+          <h3>{data.experience.poker.date}</h3>
+          <ul className='list-disc pl-5'>    
+            <div>
+               { data.experience.poker.skillset.map((item) => (<li key={item}>{item}</li>) )}
+            </div>
+          </ul>
+        </div>
+
+      
+
         <div>
           <div className='mb-4'>
             <h2 className='font-bold text-xl'>{ data.podcast.title }</h2>
